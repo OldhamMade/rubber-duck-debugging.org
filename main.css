@@ -1,0 +1,80 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+/* Custom container */
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.container > hr {
+    margin: 60px 0;
+}
+
+.header {
+    position: relative;
+    clear: both;
+    height: 1%;
+}
+
+.header h1 {
+    font-size: 5em;
+    width: 1%;
+    font-weight: bold;
+}
+
+.header img {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 300px;
+}
+
+.header .intro {
+    margin: 1em 0;
+    font-size: 1.4em;
+    width: 50%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.footer {
+    margin-top: -50px;
+    font-size: .8;
+    color: #999;
+}
+
+h2, h3 {
+    border-bottom: 1px solid #CCC;
+    margin: 1.5em 0 1em 0;
+    padding-bottom: .2em;
+}
+
+p, li, dt, dd {
+    line-height: 1.5;
+}
+
+p, dt {
+    font-size: 1.1em;
+}
+
+dt {
+    margin: 1em 0 .5em 0;
+}
+
+dd {
+    padding: 0 0 0 .5em;
+    border-left: 5px solid #EEE;
+}
+
+ul.steps {
+    list-style: none;
+}
+
+ul.steps .step {
+    font-weight: bold;
+    margin-right: .5em;
+}
