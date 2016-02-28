@@ -78,3 +78,41 @@ ul.steps .step {
     font-weight: bold;
     margin-right: .5em;
 }
+
+@media only screen and (max-width : 992px) {
+    .header img {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    body {
+        padding-top: 0px;
+    }
+    .header {
+        text-align: center;
+    }
+    .header h1 {
+        font-size: 4em;
+        width: 100%;
+    }
+
+    .header img {
+        position: relative;
+        left: 0;
+        width: 300px;
+        margin: 0 0 20px 0;
+
+    }
+    .header .intro {
+        margin: 1em 0;
+        font-size: 1.4em;
+        width: 100%;
+    }
+    ul.steps {
+        padding: 0 2em 0 1em;
+    }
+}
