@@ -24,11 +24,25 @@ body {
     font-weight: bold;
 }
 
-.header img {
+.header #rubber-duck-image {
     position: absolute;
     top: 20px;
     right: 100px;
     width: 300px;
+    height: 300px;
+}
+
+.header #rubber-duck-image img {
+    position: absolute;
+    width: 100%;
+}
+
+.lt-ie7 .header #rubber-duck-image {
+    background: url(rubber-duck-300x300.png) no-repeat 50% 50%;
+}
+
+.lt-ie7 .header #rubber-duck-image img {
+    display: none;
 }
 
 .header .intro {
@@ -80,11 +94,10 @@ ul.steps .step {
 }
 
 @media only screen and (max-width : 992px) {
-    .header img {
+    .header #rubber-duck-image {
         position: absolute;
         top: 20px;
         right: 0;
-        width: 300px;
     }
 }
 
@@ -99,13 +112,16 @@ ul.steps .step {
         font-size: 4em;
         width: 100%;
     }
-
-    .header img {
+    .header #rubber-duck-image {
         position: relative;
         left: 0;
-        width: 300px;
+        width: 100%;
         margin: 0 0 20px 0;
-
+    }
+    .header #rubber-duck-image img {
+        width: 300px;
+        position: relative;
+        margin: 0 auto;
     }
     .header .intro {
         margin: 1em 0;
